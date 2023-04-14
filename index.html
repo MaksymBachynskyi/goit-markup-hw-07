@@ -19,6 +19,7 @@
 			referrerpolicy="no-referrer"
 		/>
 		<link rel="stylesheet" href="./css/styles.css" />
+		<link rel="stylesheet" href="./css/media.css" />
 	</head>
 
 	<body>
@@ -43,24 +44,110 @@
 							>
 						</li>
 						<li class="navigation-item">
-							<a href="" class="navigation-link link">Contacts</a>
+							<a hrefnavigation-item="" class="navigation-link link"
+								>Contacts</a
+							>
 						</li>
 					</ul>
 				</nav>
+
 				<address class="contacts">
 					<ul class="contacts-list list">
-						<li class="navigation-item">
+						<li class="mail">
 							<a href="mailto:info@devstudio.com" class="main-link link"
 								>info@devstudio.com</a
 							>
 						</li>
-						<li class="navigation-item">
+						<li class="tel">
 							<a href="tel:+110001111111" class="main-link link"
 								>+11 (000) 111-11-11</a
 							>
 						</li>
 					</ul>
 				</address>
+				<button class="button-burger" type="button" data-menu-open>
+					<svg width="32px" height="22px">
+						<use href="./Images/symbol-defs.svg#icon-mobile-menu"></use>
+					</svg>
+				</button>
+			</div>
+			<div class="mob-menu" data-menu>
+				<button class="menu-button-close" data-menu-close>
+					<svg class="icon-modal-close">
+						<use href="./Images/symbol-defs.svg#icon-close"></use>
+					</svg>
+				</button>
+				<ul class="mob-menu-list list">
+					<li class="mob-menu-item">
+						<a href="./index.html" class="mob-menu-link link current"
+							>Studio
+						</a>
+					</li>
+					<li class="mob-menu-item">
+						<a href="./portfolio.html" class="mob-menu-link link">
+							Portfolio</a
+						>
+					</li>
+					<li class="mob-menu-item">
+						<a hrefnavigation-item="" class="mob-menu-link link specific"
+							>Contacts</a
+						>
+					</li>
+				</ul>
+				<ul class="mob-menu-contacts-list list">
+					<li class="mob-menu-tel">
+						<a href="tel:+110001111111" class="mob-menu-link-tel link"
+							>+11 (000) 111-11-11</a
+						>
+					</li>
+					<li class="mob-menu-mail">
+						<a
+							href="mailto:info@devstudio.com"
+							class="mob-menu-link-mail link"
+							>info@devstudio.com</a
+						>
+					</li>
+					<li>
+						<ul class="mob-list-social list">
+							<li class="mob-block-for-icon">
+								<a href="" class="mob-social-link link"
+									><svg class="mob-icon">
+										<use
+											href="./Images/symbol-defs.svg#icon-instagram"
+										></use>
+									</svg>
+								</a>
+							</li>
+							<li class="mob-block-for-icon">
+								<a href="" class="mob-social-link link">
+									<svg class="mob-icon">
+										<use
+											href="./Images/symbol-defs.svg#icon-twitter"
+										></use>
+									</svg>
+								</a>
+							</li>
+							<li class="mob-block-for-icon">
+								<a href="" class="mob-social-link link"
+									><svg class="mob-icon">
+										<use
+											href="./Images/symbol-defs.svg#icon-facebook"
+										></use>
+									</svg>
+								</a>
+							</li>
+							<li class="mob-block-for-icon">
+								<a href="" class="mob-social-link link"
+									><svg class="mob-icon">
+										<use
+											href="./Images/symbol-defs.svg#icon-linkedin"
+										></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
 			</div>
 		</header>
 		<main>
@@ -143,7 +230,10 @@
 						<li class="description-item">
 							<img
 								class="description-img"
-								src="./images/monitor.jpg"
+								src="./Images/drive-download-20230408T085116Z-001/img-1.jpg"
+								srcset="
+									./Images/drive-download-20230408T085116Z-001/img-1@2x.jpg 2x
+								"
 								alt="monitor"
 								width="360"
 								height="300"
@@ -151,8 +241,11 @@
 						</li>
 						<li class="description-item">
 							<img
+								srcset="
+									./Images/drive-download-20230408T085116Z-001/img-2@2x.jpg 2x
+								"
 								class="description-item"
-								src="./images/menu.jpg"
+								src="./Images/drive-download-20230408T085116Z-001/img-2.jpg"
 								alt="aplication"
 								width="360"
 								height="300"
@@ -160,8 +253,11 @@
 						</li>
 						<li class="description-item">
 							<img
+								srcset="
+									./Images/drive-download-20230408T085116Z-001/img-3@2x.jpg 2x
+								"
 								class="description-item"
-								src="./images/telephone.jpg"
+								src="./images/drive-download-20230408T085116Z-001/img-3.jpg"
 								alt="telephone"
 								width="360"
 								height="300"
@@ -176,8 +272,11 @@
 					<ul class="team-list list">
 						<li class="team-item">
 							<img
+								srcset="
+									./Images/drive-download-20230408T085116Z-001/mark-guerrero@2x.jpg 2x
+								"
 								class="team-img"
-								src="./images/mark.jpg"
+								src="./images/drive-download-20230408T085116Z-001/mark-guerrero.jpg"
 								alt="Product Designer"
 								width="264"
 								height="260"
@@ -229,8 +328,11 @@
 						</li>
 						<li class="team-item">
 							<img
+								srcset="
+									./Images/drive-download-20230408T085116Z-001/tom-ford@2x.jpg 2x
+								"
 								class="team-img"
-								src="./images/djon.jpg"
+								src="./images/drive-download-20230408T085116Z-001/tom-ford.jpg"
 								alt="Frontend Developer"
 								width="264"
 								height="260"
@@ -283,8 +385,11 @@
 						</li>
 						<li class="team-item">
 							<img
+								srcset="
+									./Images/drive-download-20230408T085116Z-001/camila-garcia@2x.jpg 2x
+								"
 								class="team-img"
-								src="./images/camilla.jpg"
+								src="./images/drive-download-20230408T085116Z-001/camila-garcia.jpg"
 								alt="Marketing"
 								width="264"
 								height="260"
@@ -336,8 +441,11 @@
 						</li>
 						<li class="team-item">
 							<img
+								srcset="
+									./Images/drive-download-20230408T085116Z-001/daniel-wilson@2x.jpg 2x
+								"
 								class="team-img"
-								src="./images/denis.jpg"
+								src="./images/drive-download-20230408T085116Z-001/daniel-wilson.jpg"
 								alt="Ui Designer"
 								width="264"
 								height="260"
@@ -390,7 +498,7 @@
 				</div>
 			</section>
 			<section class="section-customers">
-				<div class="container">
+				<div class="container special">
 					<h2 class="title-customers">Customers</h2>
 					<ul class="customers-list list">
 						<li class="customers-item">
@@ -450,7 +558,7 @@
 			</section>
 		</main>
 		<footer class="footer">
-			<div class="container flex-for-footer">
+			<div class="container flex-for-footer special">
 				<div class="footer-block">
 					<a
 						class="footer-leftside-logo link main-logo"
@@ -464,7 +572,7 @@
 						with digital marketing & growth solutions.
 					</p>
 				</div>
-				<div>
+				<div class="wrap-social-media">
 					<h3 class="title-social">Social media</h3>
 					<ul class="footer-list list">
 						<li>
@@ -592,5 +700,6 @@
 			</div>
 		</div>
 		<script src="./js/modal.js"></script>
+		<script src="./js/menu.js"></script>
 	</body>
 </html>
