@@ -59,9 +59,7 @@
 	.navigation-link:active {
 		color: var(--color-ocean);
 	}
-	.current {
-		color: var(--color-ocean);
-	}
+
 	.current::after {
 		position: absolute;
 		left: 0px;

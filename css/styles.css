@@ -51,6 +51,9 @@ body {
 	font-family: 'Roboto', sans-serif;
 	color: #434455;
 }
+.navigation-link.current {
+	color: var(--color-ocean);
+}
 .container {
 	max-width: 428px;
 	padding-left: 16px;
@@ -152,7 +155,7 @@ body {
 	text-transform: capitalize;
 	color: var(--color-navy-blue);
 }
-.specific {
+.mob-menu-link.current {
 	color: var(--color-ocean);
 }
 .menu-button-close {
@@ -211,6 +214,7 @@ body {
 }
 /*           Hero         */
 .hero {
+	margin: 0px auto;
 	background-image: linear-gradient(
 			rgba(46, 47, 66, 0.7),
 			rgba(46, 47, 66, 0.7)
@@ -344,9 +348,8 @@ body {
 .team-list-social {
 	display: flex;
 	margin-top: 8px;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
-	gap: 24px;
 }
 
 .team-social-link {
@@ -719,7 +722,7 @@ body {
 .input-policy:focus + span {
 	border-color: var(--color-ocean);
 }
-/*                         FOoTER                          */
+/*                            PORTFOLIO                 */
 .section-menu {
 	padding-top: 96px;
 	padding-bottom: 120px;
@@ -758,7 +761,7 @@ body {
 	border-color: var(--color-ocean);
 }
 .menu-cards-item {
-	max-width: calc((100%-48) / 3);
+	max-width: calc((100% - 48px) / 3);
 }
 
 .cards-content {
