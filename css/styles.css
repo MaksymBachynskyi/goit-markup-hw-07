@@ -49,7 +49,7 @@ button {
 }
 body {
 	font-family: 'Roboto', sans-serif;
-	color: #434455;
+	background-color: white;
 }
 .navigation-link.current {
 	color: var(--color-ocean);
@@ -81,11 +81,13 @@ body {
 }
 
 .main-text {
-	font-weight: 500;
 	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-	color: var(--color-slate);
+	font-style: italic;
+	letter-spacing: 2px;
+	line-height: 24px;
+}
+.main-text.tomato {
+	color: tomato;
 }
 /*          header           */
 .navigation-list,
@@ -284,6 +286,9 @@ body {
 
 	row-gap: 72px;
 }
+.about-title.tomato {
+	color: tomato;
+}
 .about-title {
 	font-weight: 700;
 	font-size: 36px;
@@ -294,6 +299,7 @@ body {
 	color: var(--color-navy-blue);
 	margin-bottom: 8px;
 }
+
 .about-block-for-icon {
 	display: none;
 }
@@ -850,6 +856,9 @@ body {
 	visibility: hidden;
 	opacity: 0;
 	pointer-events: none;
+}
+.modal.tomato {
+	background-color: tomato;
 }
 .modal {
 	position: absolute;
